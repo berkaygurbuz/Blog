@@ -1,0 +1,13 @@
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\bin\Debug\netcoreapp3.1\Blog.DataAccess.deps.json
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\bin\Debug\netcoreapp3.1\Blog.DataAccess.runtimeconfig.json
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\bin\Debug\netcoreapp3.1\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\bin\Debug\netcoreapp3.1\Blog.DataAccess.dll
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\bin\Debug\netcoreapp3.1\Blog.DataAccess.pdb
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\bin\Debug\netcoreapp3.1\Blog.Entities.dll
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\bin\Debug\netcoreapp3.1\Blog.Entities.pdb
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\obj\Debug\netcoreapp3.1\Blog.DataAccess.csprojAssemblyReference.cache
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\obj\Debug\netcoreapp3.1\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\obj\Debug\netcoreapp3.1\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\obj\Debug\netcoreapp3.1\Blog.DataAccess.csproj.CopyComplete
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\obj\Debug\netcoreapp3.1\Blog.DataAccess.dll
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.DataAccess\obj\Debug\netcoreapp3.1\Blog.DataAccess.pdb
