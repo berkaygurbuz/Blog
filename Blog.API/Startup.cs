@@ -34,10 +34,11 @@ namespace Blog.API
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            
             app.UseRouting();
-
+            
             app.UseMvcWithDefaultRoute();
+            app.UseStaticFiles();
             //app.UseEndpoints(endpoints =>
             //{
             //    endpoints.MapControllers();

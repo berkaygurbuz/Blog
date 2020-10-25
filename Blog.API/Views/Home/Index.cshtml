@@ -6,9 +6,18 @@
 
 }
 
-<div>
+<div class="main-img img-fluid">
+    <span class="title">Hello, I'm Berkay.</span>
+</div>
+
+<div class="container">
     @foreach(var post in Model)
     {
+        if (!String.IsNullOrEmpty(post.Image))
+        {
+            var imagePath = $"{post.Image}".Remove(0, 7);
+        <img class="post_img" src="@imagePath"/>
+        }
         <ul>
             <li>
                 <a asp-controller="Home" asp-action="Post" asp-route-id="@post.Id">@post.Title</a>

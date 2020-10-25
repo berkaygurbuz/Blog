@@ -1,8 +1,10 @@
 ﻿using Blog.Business.Abstract;
 using Blog.Entities;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -51,7 +53,6 @@ namespace Blog.API.Controllers
             }
             else
             {
-
                 var post = _blogService.GetPost((int)id);
                 return View(post);
             }
@@ -59,14 +60,29 @@ namespace Blog.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(Post post)
+        public IActionResult Edit(Post post, IFormFile file)
         {
+            //if Id bigger than 0 it means it created before so we update data.
             if (post.Id > 0)
             {
-                _blogService.UpdatePost(post);
+                if (file != null)
+                {
+                    //take the Image path
+                    string path = _blogService.ImageUpload(file);
+                    post.Image = path;
+                    _blogService.UpdatePost(post);
+                }
+                //there is no Image just update title and body.
+                else
+                {
+                    _blogService.UpdatePost(post);
+                }
+
             }
             else
             {
+                string path = _blogService.ImageUpload(file);
+                post.Image = path;
                 _blogService.AddPost(post);
             }
 

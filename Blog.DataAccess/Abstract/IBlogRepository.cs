@@ -1,4 +1,5 @@
 ﻿using Blog.Entities;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace Blog.DataAccess.Abstract
         void AddPost(Post post);
         void RemovePost(int id);
         void UpdatePost(Post post);
+        string ImageUpload(IFormFile file);
 
     }
 }

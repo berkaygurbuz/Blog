@@ -1,6 +1,7 @@
 ﻿using Blog.Business.Abstract;
 using Blog.DataAccess.Abstract;
 using Blog.Entities;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,12 @@ namespace Blog.Business.Concrete
         public Post GetPost(int id)
         {
             return _blogRepository.GetPost(id);
+        }
+
+        public string ImageUpload(IFormFile file)
+        {
+            
+            return _blogRepository.ImageUpload(file);
         }
 
         public void RemovePost(int id)
