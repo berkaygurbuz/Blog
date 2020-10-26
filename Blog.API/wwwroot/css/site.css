@@ -1,0 +1,52 @@
+﻿body {
+    background-color: #f8f8f8;
+    margin:0;
+}
+
+nav {
+    background-color: #ffffff;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin:auto;
+}
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        height:100%;
+        display:inline-block;
+        padding:15px;
+    }
+    nav a:hover{
+        color:#c14a4a;
+    }
+.main-img {
+    position:relative;
+    background-image: url('../static/thumb3.jpg');
+    background-position:center;
+    background-size:cover;
+    height:500px;
+    background-position:center;
+    
+}
+.title{
+    position:absolute;
+    color:white;
+    font-size:40px;
+    left:50%;
+    transform:translate(-50%);
+    top:35%;
+    text-shadow:0 0 8px #000000;
+}
+.post_img{
+    object-fit:cover;
+    height:250px;
+    width:100%;
+    
+}
+.container{
+    max-width:880px;
+    width:100%;
+    margin:auto;
+}

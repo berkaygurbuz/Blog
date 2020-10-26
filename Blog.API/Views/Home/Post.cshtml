@@ -1,6 +1,9 @@
 ﻿@model Post
 @using Blog.Entities
-@{ 
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.Description;
+    ViewBag.Keywords = $"{Model.Tags?.Replace(","," ")} {Model.Category}";
 
 }
 
@@ -13,4 +16,6 @@
 
 <h2>@Model.Title</h2>
 
-<p>@Model.Body</p>
+<div>
+    @Html.Raw(Model.Body)
+</div>

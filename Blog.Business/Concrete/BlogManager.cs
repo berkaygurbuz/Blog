@@ -29,6 +29,11 @@ namespace Blog.Business.Concrete
             return _blogRepository.GetAllPosts();
         }
 
+        public List<Post> GetAllPosts(string category)
+        {
+            return _blogRepository.GetAllPosts(category);
+        }
+
         public Post GetPost(int id)
         {
             return _blogRepository.GetPost(id);

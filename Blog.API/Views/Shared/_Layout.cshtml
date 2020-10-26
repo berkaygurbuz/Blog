@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewBag.Title</title>
+    <meta name="description" content="@ViewBag.Description" />
+    <meta name="keywords" content="@ViewBag.Keywords" />
     <link href="~/css/site.css" rel="stylesheet" />
     
 </head>
@@ -13,6 +15,7 @@
     <div>
         <nav>
             <a asp-controller="Home" asp-action="Index">Index</a>
+            <a asp-controller="Home" asp-action="Index" asp-route-category="Programming">Programming</a>
             <a asp-controller="Home" asp-action="Edit">Create Post</a>
         </nav>
     </div>
@@ -20,6 +23,8 @@
     <div>
         @RenderBody()
     </div>
+    
+    @RenderSection("scripts", false)
    
 </body>
 </html>

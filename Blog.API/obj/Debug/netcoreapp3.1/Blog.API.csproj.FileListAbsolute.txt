@@ -9,6 +9,7 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Blog.
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Blog.API.pdb
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Blog.API.Views.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Blog.API.Views.pdb
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -38,6 +39,7 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Syste
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
@@ -57,6 +59,7 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Blog.
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.csprojAssemblyReference.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\staticwebassets\Blog.API.StaticWebAssets.Manifest.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\staticwebassets\Blog.API.StaticWebAssets.xml
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.RazorAssemblyInfo.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.RazorAssemblyInfo.cs
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.AssemblyInfoInputs.cache
@@ -64,7 +67,9 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.TagHelpers.input.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.TagHelpers.output.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.RazorCoreGenerate.cache
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\Home\Post.cshtml.g.cs
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
@@ -74,8 +79,3 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.csproj.CopyComplete
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.pdb
-C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\Home\Post.cshtml.g.cs
-C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
-C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
-C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
-C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.MvcApplicationPartsAssemblyInfo.cache

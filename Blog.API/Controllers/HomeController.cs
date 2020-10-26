@@ -19,18 +19,10 @@ namespace Blog.API.Controllers
         {
             _blogService = blogService;
         }
-        public IActionResult Index()
+        public IActionResult Index(string category)
         {
-            var post = _blogService.GetAllPosts();
-            if (post == null)
-            {
-                return View();
-            }
-            else
-            {
-                return View(post);
-            }
-
+            var post = string.IsNullOrEmpty(category) ? _blogService.GetAllPosts() : _blogService.GetAllPosts(category);
+            return View(post);
         }
 
         public IActionResult Post(int id)
@@ -70,11 +62,13 @@ namespace Blog.API.Controllers
                     //take the Image path
                     string path = _blogService.ImageUpload(file);
                     post.Image = path;
+                    post.CurrentImage = path;
                     _blogService.UpdatePost(post);
                 }
                 //there is no Image just update title and body.
                 else
                 {
+                    post.Image = post.CurrentImage;
                     _blogService.UpdatePost(post);
                 }
 
@@ -82,6 +76,7 @@ namespace Blog.API.Controllers
             else
             {
                 string path = _blogService.ImageUpload(file);
+                post.CurrentImage = path;
                 post.Image = path;
                 _blogService.AddPost(post);
             }

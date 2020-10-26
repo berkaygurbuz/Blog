@@ -3,8 +3,8 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\bin\Debug\netcoreapp3.1\
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\bin\Debug\netcoreapp3.1\Blog.Entities.runtimeconfig.dev.json
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\bin\Debug\netcoreapp3.1\Blog.Entities.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\bin\Debug\netcoreapp3.1\Blog.Entities.pdb
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\obj\Debug\netcoreapp3.1\Blog.Entities.csprojAssemblyReference.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\obj\Debug\netcoreapp3.1\Blog.Entities.AssemblyInfoInputs.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\obj\Debug\netcoreapp3.1\Blog.Entities.AssemblyInfo.cs
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\obj\Debug\netcoreapp3.1\Blog.Entities.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\obj\Debug\netcoreapp3.1\Blog.Entities.pdb
-C:\Users\Berkay\source\repos\BlogTemplate\Blog.Entities\obj\Debug\netcoreapp3.1\Blog.Entities.csprojAssemblyReference.cache

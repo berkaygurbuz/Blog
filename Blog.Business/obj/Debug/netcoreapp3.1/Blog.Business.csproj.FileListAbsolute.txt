@@ -1,7 +1,9 @@
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\bin\Debug\netcoreapp3.1\Blog.Business.deps.json
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\bin\Debug\netcoreapp3.1\Blog.Business.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\bin\Debug\netcoreapp3.1\Blog.Business.pdb
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\bin\Debug\netcoreapp3.1\Blog.DataAccess.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\bin\Debug\netcoreapp3.1\Blog.Entities.dll
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\bin\Debug\netcoreapp3.1\Blog.DataAccess.pdb
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\bin\Debug\netcoreapp3.1\Blog.Entities.pdb
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\obj\Debug\netcoreapp3.1\Blog.Business.csprojAssemblyReference.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\obj\Debug\netcoreapp3.1\Blog.Business.AssemblyInfoInputs.cache
@@ -9,5 +11,3 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\obj\Debug\netcoreapp3.1\
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\obj\Debug\netcoreapp3.1\Blog.Business.csproj.CopyComplete
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\obj\Debug\netcoreapp3.1\Blog.Business.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\obj\Debug\netcoreapp3.1\Blog.Business.pdb
-C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\bin\Debug\netcoreapp3.1\Blog.DataAccess.dll
-C:\Users\Berkay\source\repos\BlogTemplate\Blog.Business\bin\Debug\netcoreapp3.1\Blog.DataAccess.pdb

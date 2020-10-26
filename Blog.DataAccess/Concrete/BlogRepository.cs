@@ -23,10 +23,22 @@ namespace Blog.DataAccess.Concrete
             }
         }
 
+        public List<Post> GetAllPosts(string category)
+        {
+            using (var blogDbContext = new BlogDbContext())
+            {
+
+                var posts = blogDbContext.Posts.Where(x=>x.Category.ToLower().Equals(category.ToLower()))
+                    .ToList();
+                return posts;
+            }
+        }
+
         public List<Post> GetAllPosts()
         {
             using (var blogDbContext = new BlogDbContext())
             {
+
                 var posts = blogDbContext.Posts.ToList();
                 return posts;
             }
