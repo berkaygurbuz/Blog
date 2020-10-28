@@ -45,6 +45,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "PhotoSauce.MagicScaler": {
+              "target": "Package",
+              "version": "[0.11.1, )"
+            },
             "bootstrap": {
               "target": "Package",
               "version": "[4.5.3, )"
@@ -112,6 +116,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "PhotoSauce.MagicScaler": {
+              "target": "Package",
+              "version": "[0.11.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -186,6 +196,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "PhotoSauce.MagicScaler": {
+              "target": "Package",
+              "version": "[0.11.1, )"
             }
           },
           "imports": [
@@ -250,6 +264,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "PhotoSauce.MagicScaler": {
+              "target": "Package",
+              "version": "[0.11.1, )"
             }
           },
           "imports": [

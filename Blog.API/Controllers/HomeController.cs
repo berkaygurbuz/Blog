@@ -59,6 +59,11 @@ namespace Blog.API.Controllers
             {
                 if (file != null)
                 {
+                    //if there is a image before we delete and save new image
+                    if (!String.IsNullOrEmpty(post.CurrentImage))
+                    {
+                        _blogService.RemoveImage(post.CurrentImage);
+                    }
                     //take the Image path
                     string path = _blogService.ImageUpload(file);
                     post.Image = path;

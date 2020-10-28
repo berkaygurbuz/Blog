@@ -9,7 +9,8 @@
       "Blog.Business/1.0.0": {
         "dependencies": {
           "Blog.DataAccess": "1.0.0",
-          "Blog.Entities": "1.0.0"
+          "Blog.Entities": "1.0.0",
+          "PhotoSauce.MagicScaler": "0.11.1"
         },
         "runtime": {
           "Blog.Business.dll": {}
@@ -365,6 +366,14 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.1.20720"
+          }
+        }
+      },
+      "PhotoSauce.MagicScaler/0.11.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/PhotoSauce.MagicScaler.dll": {
+            "assemblyVersion": "0.11.1.0",
+            "fileVersion": "0.11.1.0"
           }
         }
       },
@@ -1040,7 +1049,8 @@
           "Blog.Entities": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "3.1.9",
           "Microsoft.EntityFrameworkCore": "3.1.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
+          "PhotoSauce.MagicScaler": "0.11.1"
         },
         "runtime": {
           "Blog.DataAccess.dll": {}
@@ -1048,7 +1058,8 @@
       },
       "Blog.Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
+          "PhotoSauce.MagicScaler": "0.11.1"
         },
         "runtime": {
           "Blog.Entities.dll": {}
@@ -1278,6 +1289,13 @@
       "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+    },
+    "PhotoSauce.MagicScaler/0.11.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YQ23UYR+ax8D1pQnKRbBCbdDbV6wgaRk6Ax0dQoCLEKZRdx25/7hUCntLGc6RaK9/IEDdna9qp3+xZ5ZgL0fow==",
+      "path": "photosauce.magicscaler/0.11.1",
+      "hashPath": "photosauce.magicscaler.0.11.1.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

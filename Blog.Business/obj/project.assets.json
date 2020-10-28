@@ -426,6 +426,15 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "PhotoSauce.MagicScaler/0.11.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/PhotoSauce.MagicScaler.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/PhotoSauce.MagicScaler.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1497,7 +1506,8 @@
           "Blog.Entities": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "3.1.9",
           "Microsoft.EntityFrameworkCore": "3.1.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
+          "PhotoSauce.MagicScaler": "0.11.1"
         },
         "compile": {
           "bin/placeholder/Blog.DataAccess.dll": {}
@@ -1510,7 +1520,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
+          "PhotoSauce.MagicScaler": "0.11.1"
         },
         "compile": {
           "bin/placeholder/Blog.Entities.dll": {}
@@ -2197,6 +2208,30 @@
         "newtonsoft.json.10.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "PhotoSauce.MagicScaler/0.11.1": {
+      "sha512": "YQ23UYR+ax8D1pQnKRbBCbdDbV6wgaRk6Ax0dQoCLEKZRdx25/7hUCntLGc6RaK9/IEDdna9qp3+xZ5ZgL0fow==",
+      "type": "package",
+      "path": "photosauce.magicscaler/0.11.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/PhotoSauce.MagicScaler.dll",
+        "lib/net461/PhotoSauce.MagicScaler.xml",
+        "lib/net472/PhotoSauce.MagicScaler.dll",
+        "lib/net472/PhotoSauce.MagicScaler.xml",
+        "lib/netcoreapp2.1/PhotoSauce.MagicScaler.dll",
+        "lib/netcoreapp2.1/PhotoSauce.MagicScaler.xml",
+        "lib/netcoreapp3.0/PhotoSauce.MagicScaler.dll",
+        "lib/netcoreapp3.0/PhotoSauce.MagicScaler.xml",
+        "lib/netstandard2.0/PhotoSauce.MagicScaler.dll",
+        "lib/netstandard2.0/PhotoSauce.MagicScaler.xml",
+        "lib/netstandard2.1/PhotoSauce.MagicScaler.dll",
+        "lib/netstandard2.1/PhotoSauce.MagicScaler.xml",
+        "package/PhotoSauce.png",
+        "photosauce.magicscaler.0.11.1.nupkg.sha512",
+        "photosauce.magicscaler.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -5753,7 +5788,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Blog.DataAccess >= 1.0.0",
-      "Blog.Entities >= 1.0.0"
+      "Blog.Entities >= 1.0.0",
+      "PhotoSauce.MagicScaler >= 0.11.1"
     ]
   },
   "packageFolders": {
@@ -5799,6 +5835,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "PhotoSauce.MagicScaler": {
+            "target": "Package",
+            "version": "[0.11.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

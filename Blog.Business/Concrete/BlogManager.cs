@@ -45,6 +45,11 @@ namespace Blog.Business.Concrete
             return _blogRepository.ImageUpload(file);
         }
 
+        public void RemoveImage(string image)
+        {
+            _blogRepository.RemoveImage(image);
+        }
+
         public void RemovePost(int id)
         {
             _blogRepository.RemovePost(id);

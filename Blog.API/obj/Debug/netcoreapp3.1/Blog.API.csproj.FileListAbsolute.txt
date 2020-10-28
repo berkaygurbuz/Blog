@@ -59,7 +59,6 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\Blog.
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.csprojAssemblyReference.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\staticwebassets\Blog.API.StaticWebAssets.Manifest.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\staticwebassets\Blog.API.StaticWebAssets.xml
-C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.RazorAssemblyInfo.cache
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.RazorAssemblyInfo.cs
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.AssemblyInfoInputs.cache
@@ -79,3 +78,5 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.csproj.CopyComplete
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.dll
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.pdb
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\PhotoSauce.MagicScaler.dll
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.MvcApplicationPartsAssemblyInfo.cache

@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="PhotoSauce.MagicScaler" Version="0.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Blog.DataAccess\Blog.DataAccess.csproj" />
     <ProjectReference Include="..\Blog.Entities\Blog.Entities.csproj" />
   </ItemGroup>

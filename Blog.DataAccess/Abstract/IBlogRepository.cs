@@ -17,6 +17,7 @@ namespace Blog.DataAccess.Abstract
         void RemovePost(int id);
         void UpdatePost(Post post);
         string ImageUpload(IFormFile file);
+        void RemoveImage(string image);
 
     }
 }
