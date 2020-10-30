@@ -24,6 +24,11 @@ namespace Blog.Business.Concrete
             _blogRepository.AddPost(post);
         }
 
+        public bool CanGoNext(int pageNumber,string category)
+        {
+            return _blogRepository.CanGoNext(pageNumber,category);
+        }
+
         public List<Post> GetAllPosts()
         {
             return _blogRepository.GetAllPosts();
@@ -33,6 +38,12 @@ namespace Blog.Business.Concrete
         {
             return _blogRepository.GetAllPosts(category);
         }
+
+        public List<Post> GetAllPosts(int pageNumber,string category)
+        {
+            return _blogRepository.GetAllPosts(pageNumber,category);
+        }
+
 
         public Post GetPost(int id)
         {
@@ -53,6 +64,11 @@ namespace Blog.Business.Concrete
         public void RemovePost(int id)
         {
             _blogRepository.RemovePost(id);
+        }
+
+        public List<Post> Search(string search,int pageNumber)
+        {
+            return _blogRepository.Search(search,pageNumber);
         }
 
         public void UpdatePost(Post post)

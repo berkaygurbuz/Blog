@@ -19,9 +19,29 @@ namespace Blog.API.Controllers
         {
             _blogService = blogService;
         }
-        public IActionResult Index(string category)
+        public IActionResult Index(string category, int pageNumber,string search)
         {
-            var post = string.IsNullOrEmpty(category) ? _blogService.GetAllPosts() : _blogService.GetAllPosts(category);
+            if (pageNumber < 1)
+            {
+                ViewBag.pageNumber = 1;
+                ViewBag.canGoNext = _blogService.CanGoNext(pageNumber,category);
+                return RedirectToAction("Index", new { pageNumber = 1, category });
+            }
+
+
+            
+            ViewBag.pageNumber = pageNumber;
+            ViewBag.canGoNext = _blogService.CanGoNext(pageNumber,category);
+            if (search != null)
+            {
+                ViewBag.Search = search;
+                return View(_blogService.Search(search, pageNumber));
+            }
+            if (category != null)
+            {
+                ViewBag.Category = category;
+            }
+            var post = _blogService.GetAllPosts(pageNumber, category);
             return View(post);
         }
 

@@ -12,12 +12,16 @@ namespace Blog.DataAccess.Abstract
     {
         List<Post> GetAllPosts();
         List<Post> GetAllPosts(string category);
+        List<Post> GetAllPosts(int pageNumber,string category);
+        
+        List<Post> Search(string search,int pageNumber);
+        bool CanGoNext(int pageNumber,string category);
         Post GetPost(int id);
         void AddPost(Post post);
         void RemovePost(int id);
         void UpdatePost(Post post);
-        string ImageUpload(IFormFile file); 
-        void RemoveImage(string image); 
+        string ImageUpload(IFormFile file);
+        void RemoveImage(string image);
 
     }
 }
