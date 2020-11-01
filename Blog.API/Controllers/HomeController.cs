@@ -1,5 +1,6 @@
 ﻿using Blog.Business.Abstract;
 using Blog.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -108,6 +109,7 @@ namespace Blog.API.Controllers
 
             return RedirectToAction("Index");
         }
+
 
     }
 }

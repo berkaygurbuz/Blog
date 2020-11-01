@@ -8,7 +8,9 @@
     <meta name="description" content="@ViewBag.Description" />
     <meta name="keywords" content="@ViewBag.Keywords" />
     <link href="~/css/site.css" rel="stylesheet" />
-    
+
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
 </head>
 <body>
 
@@ -19,12 +21,13 @@
             <a asp-controller="Home" asp-action="Edit">Create Post</a>
         </nav>
     </div>
-
+    
     <div>
         @RenderBody()
     </div>
-    
+
     @RenderSection("scripts", false)
-   
+
+
 </body>
 </html>

@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Blog.DataAccess.Migrations
 {
     [DbContext(typeof(BlogDbContext))]
-    [Migration("20201030140453_fixed")]
-    partial class @fixed
+    [Migration("20201031145224_added")]
+    partial class added
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

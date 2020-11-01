@@ -1,52 +1,52 @@
 ﻿body {
-    background-color: #f8f8f8;
-    margin:0;
+    background-color: #f8f8f8!important;
+    margin:0!important;
 }
 
 nav {
-    background-color: #ffffff;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    margin:auto;
+    background-color: #ffffff!important;
+    height: 50px!important;
+    width: 100%!important;
+    text-align: center!important;
+    margin:auto!important;
 }
 
     nav a {
-        text-decoration: none;
-        color: black;
-        height:100%;
-        display:inline-block;
-        padding:15px;
+        text-decoration: none!important;
+        color: black!important;
+        height:100%!important;
+        display:inline-block!important;
+        padding:15px!important;
     }
     nav a:hover{
-        color:#c14a4a;
+        color:#c14a4a!important;
     }
 .main-img {
-    position:relative;
-    background-image: url('../static/thumb3.jpg');
-    background-position:center;
-    background-size:cover;
-    height:500px;
-    background-position:center;
+    position:relative!important;
+    background-image: url('../static/thumb3.jpg')!important;
+    background-position:center!important;
+    background-size:cover!important;
+    height:500px!important;
+    background-position:center!important;
     
 }
 .title{
-    position:absolute;
-    color:white;
-    font-size:40px;
-    left:50%;
-    transform:translate(-50%);
-    top:35%;
-    text-shadow:0 0 8px #000000;
+    position:absolute!important;
+    color:white!important;
+    font-size:40px!important;
+    left:50%!important;
+    transform:translate(-50%)!important;
+    top:35%!important;
+    text-shadow:0 0 8px #000000!important;
 }
 .post_img{
-    object-fit:cover;
-    height:250px;
-    width:100%;
+    object-fit:cover!important;
+    height:250px!important;
+    width:100%!important;
     
 }
 .container{
-    max-width:880px;
-    width:100%;
-    margin:auto;
+    max-width:880px!important;
+    width:100%!important;
+    margin:auto!important;
 }

@@ -2,7 +2,7 @@
 
 namespace Blog.DataAccess.Migrations
 {
-    public partial class @fixed : Migration
+    public partial class added : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

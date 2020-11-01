@@ -1,4 +1,5 @@
-﻿using Blog.Entities;
+﻿
+using Blog.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace Blog.DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            
+
             //You can change your mssql information
             optionsBuilder.UseSqlServer("Server=DESKTOP-0Q2H04V;Database=BlogDb;uid=sa;pwd=1234");
 
