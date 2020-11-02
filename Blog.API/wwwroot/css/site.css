@@ -1,52 +1,166 @@
-﻿body {
-    background-color: #f8f8f8!important;
-    margin:0!important;
+﻿/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
+/* Global */
+body {
+    background-color: #f8f8f8 !important;
+    margin: 0 !important;
 }
 
 nav {
-    background-color: #ffffff!important;
-    height: 50px!important;
-    width: 100%!important;
-    text-align: center!important;
-    margin:auto!important;
+    background-color: #ffffff !important;
+    height: 50px !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: auto !important;
 }
 
     nav a {
-        text-decoration: none!important;
-        color: black!important;
-        height:100%!important;
-        display:inline-block!important;
-        padding:15px!important;
+        text-decoration: none !important;
+        color: black !important;
+        height: 100% !important;
+        display: inline-block !important;
+        padding: 15px !important;
+        font-family: 'Overlock', cursive!important;
+        font-size:1.1em;
     }
-    nav a:hover{
-        color:#c14a4a!important;
+
+        nav a:hover {
+            
+            color: #c14a4a !important;
+            -webkit-transition: 0.5s ease-in-out;
+            transition: 0.5s ease-in-out;
+        }
+
+.card-header {
+    padding: 0 !important;
+}
+
+p {
+    font-family: 'Overlock', cursive!important;
+    font-size: 1.3rem;
+}
+
+.btn-primary {
+    background-color: #c14a4a !important;
+    border-color: #c14a4a !important;
+    font-size: 20px !important;
+    font-family: 'Anton', sans-serif !important;
+}
+
+    .btn-primary:hover {
+        background-color: black !important;
+        border-color: black !important;
+        -webkit-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
-.main-img {
-    position:relative!important;
-    background-image: url('../static/thumb3.jpg')!important;
-    background-position:center!important;
-    background-size:cover!important;
-    height:500px!important;
-    background-position:center!important;
-    
+
+.card-title {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase !important;
 }
-.title{
-    position:absolute!important;
-    color:white!important;
-    font-size:40px!important;
-    left:50%!important;
-    transform:translate(-50%)!important;
-    top:35%!important;
-    text-shadow:0 0 8px #000000!important;
+
+.social{
+    margin-top:-14px!important;
 }
-.post_img{
-    object-fit:cover!important;
-    height:250px!important;
-    width:100%!important;
-    
+.social a {
+    text-decoration: none;
+    color: gray;
 }
-.container{
-    max-width:880px!important;
-    width:100%!important;
-    margin:auto!important;
+
+    .social a:hover {
+        color: #c14a4a !important;
+        -webkit-transition: 0.8s ease-in-out;
+        transition: 0.8s ease-in-out;
+    }
+
+
+
+/* Profile Image */
+
+.image {
+    display: inherit;
+    text-align: center;
+    width: 200px;
+    /* Container's dimensions */
+    height: 200px;
+    -webkit-border-radius: 75%;
+    -moz-border-radius: 75%;
+    box-shadow: 0 0 0 1px #eee;
+    background: url("../static/berkay.jpg") center center no-repeat;
+    background-size: cover;
+    margin: auto;
+    align-content: center;
+}
+
+    .image:hover {
+        box-shadow: 0px 5px 20px .9px #3F3F3F;
+    }
+
+    .image:hover {
+        -webkit-transform: scale(1.12);
+        transform: scale(1.12);
+        -webkit-transition: 1.6s ease-in-out;
+        transition: 1.6s ease-in-out;
+    }
+
+.overlay {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    padding: 0 0 0 0;
+    opacity: 1.0;
+    -webkit-transition: opacity 2.25s ease;
+    -moz-transition: opacity 10.25s ease;
+}
+
+
+
+
+
+
+/*
+    TYPEWRITER CSS
+*/
+
+.line-1 {
+    margin: auto;
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    font-family: 'Nunito', sans-serif!important;
+}
+
+/* Animation */
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 8.5em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255,255,255,.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }

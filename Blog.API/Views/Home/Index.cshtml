@@ -9,9 +9,8 @@
     ViewBag.Keywords = "blog programming c# dotnetcore mvc";
 }
 
-<div class="main-img img-fluid">
-    <span class="title">Hello, I'm Berkay.</span>
-</div>
+
+
 
 <div class="container">
     <form asp-controller="Home" asp-action="Index" method="get">
@@ -20,7 +19,7 @@
     </form>
     <div class="container">
         <div class="row">
-            <div class="col-lg-10">
+            <div class="col-lg-9">
 
 
                 @foreach (var post in Model)
@@ -36,8 +35,8 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">@post.Title</h5>
-                            <p class="card-text">@Html.Raw(post.Body)</p>
-                            <a asp-controller="Home" asp-action="Post" asp-route-id="@post.Id" class="btn btn-primary">Read Continue...</a>
+                            <p class="card-text my-card">@Html.Raw(post.Body)</p>
+                            <a asp-controller="Home" asp-action="Post" asp-route-id="@post.Id" class="btn btn-primary">Read More</a>
                         </div>
                         <div class="card-footer text-muted">
                             @post.CreatedAt
@@ -55,16 +54,17 @@
             </div>
 
 
-            <div class="col-lg-2">
+            <div class="col-lg-3">
                 <h2>SAĞ TARAF</h2>
 
 
             </div>
 
         </div>
+ 
         @if (ViewBag.pageNumber > 1)
         {
-
+        
             <a asp-controller="Home" asp-action="Index" asp-route-pageNumber="@(ViewBag.pageNumber-1)" asp-route-category="@ViewBag.Category">Previous Page</a>
         }
         @if (ViewBag.canGoNext == true)
@@ -72,6 +72,7 @@
 
             <a asp-controller="Home" asp-action="Index" asp-route-pageNumber="@(ViewBag.pageNumber + 1)" asp-route-category="@ViewBag.Category" asp-route-search="@ViewBag.Search">Next Page</a>
         }
+        
     </div>
 </div>
 

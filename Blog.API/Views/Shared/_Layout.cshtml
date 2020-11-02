@@ -10,18 +10,33 @@
     <link href="~/css/site.css" rel="stylesheet" />
 
     <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
 
     <div>
         <nav>
             <a asp-controller="Home" asp-action="Index">Index</a>
+            <a asp-controller="Home" asp-action="Edit">C#</a>
             <a asp-controller="Home" asp-action="Index" asp-route-category="Programming">Programming</a>
+            <a asp-controller="Home" asp-action="Edit">About Me</a>
             <a asp-controller="Home" asp-action="Edit">Create Post</a>
         </nav>
     </div>
-    
+    <div class="overlay mt-4">
+        <div class="image">
+
+        </div>
+    </div>
+    <p class="line-1 anim-typewriter mt-5">BERKAY GÜRBÜZ</p>
+    <div class="social text-center">
+        <a href="#"><i class="fab fa-linkedin fa-2x"></a></i>
+        <a href="#"><i class="fab fa-twitter-square fa-2x"></a></i>
+        <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+    </div>
+
+
+
     <div>
         @RenderBody()
     </div>
