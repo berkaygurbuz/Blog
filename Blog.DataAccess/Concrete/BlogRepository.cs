@@ -57,7 +57,7 @@ namespace Blog.DataAccess.Concrete
         //settings for ImageScaler nuGet package.
         private ProcessImageSettings ImageOptions() => new ProcessImageSettings()
         {
-            Width = 800,
+            Width = 1000,
             Height = 500,
             ResizeMode = CropScaleMode.Crop,
             SaveFormat = FileFormat.Jpeg,

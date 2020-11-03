@@ -30,7 +30,7 @@
                             @if (!String.IsNullOrEmpty(post.Image))
                             {
                                 var imagePath = $"{post.Image}".Remove(0, 7);
-                                <img class="post_img" src="@imagePath" />
+                                <img class="post_img img-fluid" src="@imagePath" width="800" />
                             }
                         </div>
                         <div class="card-body">
@@ -39,7 +39,7 @@
                             <a asp-controller="Home" asp-action="Post" asp-route-id="@post.Id" class="btn btn-primary">Read More</a>
                         </div>
                         <div class="card-footer text-muted">
-                            @post.CreatedAt
+                            <span class="my-card-footer">@post.CreatedAt</span>
                         </div>
                     </div>
 

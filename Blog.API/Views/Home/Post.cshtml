@@ -7,15 +7,19 @@
 
 }
 
+<div class="post-image mt-5 text-center">
+
 @if (!String.IsNullOrEmpty(Model.Image))
 {
     var imagePath = $"{Model.Image}".Remove(0, 7);
-    <img src="@imagePath" width="300" />
+    <img src="@imagePath" class="justify-content-center" />
 }
+    </div>
+<div class="container text-center mt-5 my-post-container">
 
+    <h2 class="pt-3">@Model.Title</h2>
 
-<h2>@Model.Title</h2>
-
-<div>
-    @Html.Raw(Model.Body)
+    <div class="my-body">
+        @Html.Raw(Model.Body)
+    </div>
 </div>

@@ -26,24 +26,29 @@ nav {
         height: 100% !important;
         display: inline-block !important;
         padding: 15px !important;
-        font-family: 'Overlock', cursive!important;
-        font-size:1.1em;
+        font-family: 'Overlock', cursive !important;
+        font-size: 1.1em;
     }
 
         nav a:hover {
-            
             color: #c14a4a !important;
             -webkit-transition: 0.5s ease-in-out;
             transition: 0.5s ease-in-out;
         }
+
+.my-card-footer {
+    color: #c14a4a !important;
+    font-family: 'Overlock', cursive !important;
+}
 
 .card-header {
     padding: 0 !important;
 }
 
 p {
-    font-family: 'Overlock', cursive!important;
-    font-size: 1.3rem;
+    font-family: 'Overlock', cursive !important;
+    font-size: 1.2rem !important;
+    
 }
 
 .btn-primary {
@@ -61,26 +66,36 @@ p {
     }
 
 .card-title {
-    font-family: 'Playfair Display', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: bold;
     font-size: 30px;
-    text-transform: uppercase !important;
 }
 
-.social{
-    margin-top:-14px!important;
-}
-.social a {
-    text-decoration: none;
-    color: gray;
+.card-body,.my-body p {
+    text-align: start !important;
 }
 
-    .social a:hover {
-        color: #c14a4a !important;
-        -webkit-transition: 0.8s ease-in-out;
-        transition: 0.8s ease-in-out;
+.social {
+    margin-top: -14px !important;
+}
+
+    .social a {
+        text-decoration: none;
+        color: gray;
     }
 
+        .social a:hover {
+            color: #c14a4a !important;
+            -webkit-transition: 0.8s ease-in-out;
+            transition: 0.8s ease-in-out;
+        }
+
+.post-image{
+    background-size:cover;
+}
+.my-post-container{
+    background-color:white;
+}
 
 
 /* Profile Image */
@@ -137,7 +152,7 @@ p {
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
-    font-family: 'Nunito', sans-serif!important;
+    font-family: 'Nunito', sans-serif !important;
 }
 
 /* Animation */
