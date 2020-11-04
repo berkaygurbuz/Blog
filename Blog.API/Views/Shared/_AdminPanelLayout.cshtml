@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="@ViewBag.Description" />
+    <meta name="keywords" content="@ViewBag.Keywords" />
+
+
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <link href="~/css/admin.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Blog Admin Panel</h3>
+                <strong>BS</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+
+                <li>
+                    <a asp-controller="Admin" asp-action="AdminIndex">
+                        <i class="fas fa-bars"></i>
+                        Get All Post
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="Edit">
+                        <i class="far fa-plus-square"></i>
+                        Create New Post
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <div id="content">
+            @RenderBody()
+        </div>
+        </div>
+
+        @RenderSection("scripts", false)
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Post>
+
+@using Blog.Entities
+
+@{
+    Layout = "~/Views/Shared/_AdminPanelLayout.cshtml";
+}
+
+<div class="container">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Created At</th>
+                <th scope="col">Tags</th>
+                <th scope="col">Category</th>
+                <th scope="col">To</th>
+            </tr>
+        </thead>
+        <tbody >
+            @foreach (var post in Model)
+            {
+                <tr>
+                    <th scope="row">@post.Id</th>
+                    <td>@post.Title</td>
+                    <td>@post.Description</td>
+                    <td>@post.CreatedAt</td>
+                    <td>@post.Tags</td>
+                    <td>@post.Category</td>
+                    <td><a asp-controller="Admin" asp-action="Edit" asp-route-id="@post.Id" class="btn btn-info mr-2">Edit</a><a asp-controller="Admin" asp-action="Remove" asp-route-id="@post.Id" class="btn btn-danger">Delete</a></td>
+                    
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

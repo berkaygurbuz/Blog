@@ -70,8 +70,12 @@ p {
     font-weight: bold;
     font-size: 30px;
 }
+.my-card p{
+    text-align:start!important;
+}
 
-.card-body,.my-body p {
+
+.my-body p {
     text-align: start !important;
 }
 
@@ -178,4 +182,21 @@ p {
     to {
         border-right-color: transparent;
     }
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #212529!important;
+    margin:0!important;
+}
+
+.quick-links {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white !important;
 }

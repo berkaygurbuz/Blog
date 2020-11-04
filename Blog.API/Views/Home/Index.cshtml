@@ -19,7 +19,7 @@
     </form>
     <div class="container">
         <div class="row">
-            <div class="col-lg-9">
+            <div class="col-lg-12 col-md-12 col-12">
 
 
                 @foreach (var post in Model)
@@ -34,9 +34,9 @@
                             }
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">@post.Title</h5>
+                            <h5 class="card-title text-center">@post.Title</h5>
                             <p class="card-text my-card">@Html.Raw(post.Body)</p>
-                            <a asp-controller="Home" asp-action="Post" asp-route-id="@post.Id" class="btn btn-primary">Read More</a>
+                            <a asp-controller="Home" asp-action="Post" asp-route-id="@post.Id" class="btn btn-primary justify-content-center">Read More</a>
                         </div>
                         <div class="card-footer text-muted">
                             <span class="my-card-footer">@post.CreatedAt</span>
@@ -54,11 +54,6 @@
             </div>
 
 
-            <div class="col-lg-3">
-                <h2>SAĞ TARAF</h2>
-
-
-            </div>
 
         </div>
  

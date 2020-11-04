@@ -86,3 +86,6 @@ C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.pdb
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Blog.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminPanelLayout.cshtml.g.cs
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Edit.cshtml.g.cs
+C:\Users\Berkay\source\repos\BlogTemplate\Blog.API\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminIndex.cshtml.g.cs

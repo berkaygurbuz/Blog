@@ -1,0 +1,57 @@
+﻿@model Post
+@using Blog.Entities
+
+@{
+    Layout = "~/Views/Shared/_AdminPanelLayout.cshtml";
+}
+
+<link href="~/lib/Trumbowyg-master/dist/ui/trumbowyg.min.css" rel="stylesheet" />
+
+
+<div>
+    <form asp-controller="Home" asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input asp-for="Id" type="hidden" />
+        <div>
+            
+            <input type="text" class="form-control" asp-for="Title" placeholder="Title">  
+        </div>
+        <div class="mt-2">
+            
+            <input type="text" class="form-control" asp-for="Description" placeholder="Description">
+        </div>
+        <div class="mt-2">
+            
+            <input type="text" class="form-control" asp-for="Tags" placeholder="Tags">
+        </div>
+        <div class="mt-2">
+            
+            
+            <select class="custom-select" asp-for="Category" required>
+                <option selected disabled value="">Choose Category</option>
+                <option value="C#">C#</option>
+                <option value="Programming">Programming</option>
+                <option value="MVC">MVC</option>
+                <option value="AboutMe">About Me</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <div class="mt-2">
+            <textarea id="editor" asp-for="Body"></textarea>
+        </div>
+        <div>
+            <label>Image</label>
+            <br />
+            <input class="btn btn-warning" type="file" name="File" />
+            <input asp-for="CurrentImage" type="hidden" />
+        </div>
+        <input class="btn btn-success btn-lg btn-block mt-3" type="submit" value="Submit" />
+
+    </form>
+</div>
+
+@section scripts{
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="~/lib/Trumbowyg-master/dist/trumbowyg.min.js"></script>
+    <script>$('#editor').trumbowyg();</script>
+
+}

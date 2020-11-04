@@ -9,6 +9,7 @@
     <meta name="keywords" content="@ViewBag.Keywords" />
     <link href="~/css/site.css" rel="stylesheet" />
 
+    
     <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
@@ -39,6 +40,17 @@
 
     <div>
         @RenderBody()
+    </div>
+
+    <div class="footer">
+        
+            <div class="col-12 text-center p-2">
+                <span class="copyright quick-links text-center">
+                    Copyright &copy; with ❤️
+                    
+                </span>
+            </div>
+        
     </div>
 
     @RenderSection("scripts", false)
